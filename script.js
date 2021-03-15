@@ -41,8 +41,6 @@ window.onscroll = function () {
 
 const navbar = document.querySelector(".nav-bar");
 const navBar = document.querySelector(".main-nav");
-const wrapper = document.querySelector(".wrapper");
-const nav_bar_links = document.querySelector(".nav_bar_links");
 const sticky = navbar.offsetTop;
 
 function myFunction() {
