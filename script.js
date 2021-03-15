@@ -30,7 +30,7 @@ function toggle() {
 	}
 }
 
-//do not work by using click
+//don't work by using click
 // btn.addEventListener("click", () => {
 //   console.log(toggle())
 // })
