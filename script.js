@@ -41,7 +41,17 @@ window.onscroll = function () {
 
 const navbar = document.querySelector(".nav-bar");
 const navBar = document.querySelector(".main-nav");
+const burgerIcon = document.querySelector(".burger-icon");
+const wrapper = document.querySelector(".wrapper");
 const sticky = navbar.offsetTop;
+
+burgerIcon.addEventListener("click", () => {
+	wrapper.classList.toggle("nav-bar-active");
+	// burgerIcon.classList.toggle("burger-icon-passive");
+	wrapper.style.position = "relative";
+	wrapper.style.right = "115px";
+	wrapper.style.top = "23px";
+});
 
 function myFunction() {
 	if (window.pageYOffset >= sticky) {
@@ -52,6 +62,9 @@ function myFunction() {
 		navBar.style.width = "100%";
 		navBar.style.backgroundColor = "rgb(184, 107, 0)";
 		navBar.style.height = "0";
+		burgerIcon.style.position = "absolute";
+		burgerIcon.style.left = "0";
+		burgerIcon.style.top = "0";
 	} else {
 		navBar.classList.remove("sticky");
 		navBar.style.width = "0";
