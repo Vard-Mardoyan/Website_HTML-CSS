@@ -30,11 +30,6 @@ function toggle() {
 	}
 }
 
-//don't work by using click
-// btn.addEventListener("click", () => {
-//   console.log(toggle())
-// })
-
 window.onscroll = function () {
 	myFunction();
 };
