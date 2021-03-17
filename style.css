@@ -115,6 +115,9 @@ body {
 .active {
 	background-color: #717171;
 }
+.burger-icon {
+	display: none;
+}
 
 .main-nav {
 	width: 100%;
@@ -135,7 +138,6 @@ body {
 	font-size: 16px;
 	border-radius: 10px 10px 10px 10px;
 }
-
 .nav-bar .nav_bar_links {
 	display: flex;
 	flex-direction: row;
@@ -803,6 +805,40 @@ body {
 		left: 100px;
 		font-size: 20px;
 	}
+	.main-nav {
+		left: 0;
+		top: 0;
+	}
+	.wrapper {
+		/* border: 1px solid; */
+		background-color: rgb(174 174 192 / 60%);
+		width: 270px;
+		height: 250px;
+	}
+	.nav-bar .nav_bar_links {
+		flex-direction: column;
+		align-content: space-between;
+	}
+	.nav_bar_links .link {
+		padding: 9px 15px;
+	}
+	.dropdown {
+		left: 120px;
+		top: 50px;
+	}
+	.burger-icon {
+		display: block;
+		cursor: pointer;
+	}
+	.wrapper {
+		display: none;
+	}
+	.nav-bar-active {
+		display: block;
+	}
+	/* .burger-icon-passive {
+		display: none;
+	} */
 	.main_content_about_diving {
 		padding: 0 20px;
 		height: 1020px;
