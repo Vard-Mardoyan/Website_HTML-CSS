@@ -6,10 +6,14 @@
 
 ##### 2.Positioning (absolute, relative, sticky)
 
-##### 3.Flexbox
+##### 3.Semantic tags (header, footer, nav, main)
 
 ##### 4.Media Queries
 
 ##### 5.Metatags
 
-##### 6.Semantic tags (header, footer, nav, main)
+##### 6.Flexbox
+
+##### 7.Another page(Gallery page)
+
+
