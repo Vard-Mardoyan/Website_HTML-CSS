@@ -2,14 +2,14 @@
 
 ## Website contains
 
-##### tags (h1, p, div, span, a, img, form, etc)
+##### .Tags (h1, p, div, span, a, img, form, etc)
 
-##### positioning (absolute, relative, sticky)
+##### .Positioning (absolute, relative, sticky)
 
-##### flexbox
+##### .Flexbox
 
-##### media queries
+##### .Media Queries
 
-##### Metatags
+##### .Metatags
 
-##### Semantic tags (header, footer, nav, main)
+##### .Semantic tags (header, footer, nav, main)
